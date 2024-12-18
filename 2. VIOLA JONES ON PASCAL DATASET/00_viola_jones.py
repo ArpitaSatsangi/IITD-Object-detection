@@ -18,7 +18,7 @@ import numpy as np
 # Load pre-trained face detection model
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-# Load PASCAL VOC dataset
+# Load PASCAL VOC  2007 dataset
 transform = torchvision.transforms.Compose([
     torchvision.transforms.Resize((24, 24)),
     torchvision.transforms.Grayscale(),
@@ -42,7 +42,7 @@ def detect_faces(image):
     return face_boxes
 
 def main():
-    # Load PASCAL VOC dataset
+    # Load PASCAL VOC 2007 dataset
     dataset = torchvision.datasets.VOCDetection(root='./VOCdevkit', year='2007', image_set='trainval',
                                                 download=True)
 

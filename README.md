@@ -1,7 +1,7 @@
 # Object Detection: Viola-Jones and Faster R-CNN on PASCAL VOC 2007
 
 ## Introduction:
-The project aims to achieve comprehensive object detection on the PASCAL VOC 2007 dataset through the integration of two distinct methodologies: Viola-Jones, a classical machine learning algorithm, and Faster R-CNN, a state-of-the-art deep learning model.
+The project aims to develop a robust object detection system for the PASCAL VOC 2007 dataset by integrating two complementary methodologies: the classical machine learning-based Viola-Jones algorithm and the state-of-the-art deep learning framework, Faster R-CNN. This hybrid approach seeks to leverage the strengths of both techniques to achieve comprehensive and accurate object detection.
 
 ## Viola-Jones: Classical Object Detection
 ### Overview:
